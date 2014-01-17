@@ -1,0 +1,28 @@
+<?php
+GLOBAL $_views_inject_sqlcondition_query_string;
+
+/**
+ * @file
+ * Provides an display extender plugin example.
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function views_inject_sqlcondition_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'views_inject_sqlcondition'),
+  );
+}
+
+
+/**
+ * Implements hook_help().
+ */
+function views_inject_sqlcondition_help($path, $arg) {
+  if ($path == 'admin/help#views_inject_sqlcondition') {
+    $html = '<p>' . t('This <strong>Views Inject SQL Condition</strong> This module allows inserting SQL statements in view query.') . '</p>';
+    return $html;
+  }
+}

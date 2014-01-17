@@ -1,0 +1,7 @@
+name = Views Inject SQL in Condition
+description = Provides simple UI for views display extender plugin to add custom sql code condition with views.
+dependencies[] = views_ui
+core = 7.x
+files[] = views_inject_sqlcondition.module
+files[] = views_inject_sqlcondition.views.inc
+files[] = views_inject_sqlcondition_plugin_display_extender_code.inc
