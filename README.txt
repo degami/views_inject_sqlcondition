@@ -32,4 +32,4 @@ INSTALLATION
 DEPENDENCY
 ----------
    "views_ui" module
-   Downhload URL : http://drupal.org/project/views
+   Download URL : http://drupal.org/project/views

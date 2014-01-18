@@ -1,5 +1,4 @@
 <?php
-GLOBAL $_views_inject_sqlcondition_query_string;
 
 /**
  * @file
